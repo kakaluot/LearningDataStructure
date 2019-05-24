@@ -8,6 +8,7 @@ class Solution:
 
     def deleteNode(self, node):
         """
+        4->5->1->9，找到5 1 9 的位置索引把1和5的值互换，再把1指向9，完成
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
